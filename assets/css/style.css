@@ -1,0 +1,48 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* general css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* utility class  */
+p {
+    color: rgb(43, 23, 23)
+}
+
+ul {
+    list-style-type: none;
+    color: #af9d9d;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+/* header navbar  */
+
+header .navbar .navbar-nav {
+    margin-right: 80px;
+}
+
+header .navbar .navbar-nav .nav-item {
+    margin-right: 25px;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+/* client  */
+.client .box {
+    padding: 50px 30px;
+    border: 1px solid #DEDEDE;
+    transition: all ease-in-out 0.3s;
+}
